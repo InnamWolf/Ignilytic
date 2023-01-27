@@ -1,4 +1,4 @@
-# Sitio web LaCapital
+# Sitio web Ignilytic
 
 Sitio web de nuestro emprendimiento.
 
@@ -48,7 +48,7 @@ Esta carpeta puede contener hojas de estilo para las partes principales del siti
 * _header.sass
 * _footer.sass
 * _forms.sass
-  
+
 ## Carpeta Pages
 Estilos específicos para cada página, que contenga el proyecto
 
