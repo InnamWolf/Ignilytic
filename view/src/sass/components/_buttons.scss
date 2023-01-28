@@ -1,0 +1,26 @@
+.movil__btn{
+  border: 1px $mainBlue solid;
+  border-bottom: 1px $mainBlue solid !important;
+  padding: 15px;
+  width: 140px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  &:hover{
+    background: $mainBlue;
+  }
+
+}
+
+.escritorio__btn{
+  border: 1px $mainBlue solid;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  &:hover{
+    background: $mainBlue;
+  }
+
+}

@@ -1,0 +1,118 @@
+// * ===============================================
+// * NAV MOVIL
+// * ===============================================
+
+.movil{
+
+  background: $bgDark;
+
+  @include desktop{
+    display: none;
+  }
+
+  .movil__topNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+    i{
+      color: $whiteL;
+      font-size: 30px;
+    }
+
+    .movil__logo{
+      display: flex;
+      align-items: center;
+      img{
+        width: 190px;
+        margin-left: 15px;
+      }
+    }
+
+  }
+
+  .movil__categorias{
+
+    display: none;
+    padding: 10px;
+
+    a{
+      display: block;
+      text-decoration: none;
+      color: $whiteL;
+      border-bottom: 1px solid $lemon;
+      margin-top: 10px;
+      font-family: $title;
+      &:nth-child(6){
+        padding: 5px;
+      }
+    }
+
+    transition: .03s ease all;
+    body.dark &{
+      background: lighten($bgDark, 5%);
+    }
+
+  }
+
+}
+
+// * ===============================================
+// * MENU ESCRITORIO
+// * ===============================================
+
+.escritorio{
+
+  display: none;
+
+  @include desktop{
+
+    display: block;
+    background: $bgDark;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .escritorio__navegacion{
+      width: 1150px;
+      margin: auto;
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+      align-items: center;
+      body.dark &{
+        background: lighten($bgDark, 5%);
+        border-radius: 5px;
+      }
+      .escritorio_logo{
+        width: 200px;
+      }
+      .escritorio__categorias{
+        display: flex;            ;
+        width: 900px;
+        justify-content: space-between;
+        align-items: center;
+        a{
+          text-decoration: none;
+          font-family: $title;
+          color: $whiteL;
+          transition: all .5s;
+
+        }
+        i{
+          font-size: 30px;
+          color: $whiteL;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+
+        .escritorio__item{
+          font-size: 18px;
+        }
+
+      }
+    }
+  }
+
+}
