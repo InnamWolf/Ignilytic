@@ -11,7 +11,7 @@
     margin: 0;
   }
 
-  .parrafo_inicio{
+  .parrafo__inicio{
     text-align: center;
   }
 
@@ -19,7 +19,7 @@
   // * Habilidades
   // * ===============================================
 
-  .inicio_habilidades{
+  .inicio__habilidades{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
@@ -99,6 +99,86 @@
         height: 100px;
         width: 100px;
         margin: auto;
+      }
+    }
+
+  }
+
+  .inicio__destacados{
+
+    p{
+      text-align: center;
+    }
+
+    .destacados__item{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 20px;
+
+      @include tablet{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+      }
+
+      @include desktop{
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      a{
+        text-decoration: none;
+        padding: 10px;
+        font-family: $title;
+        color: $black;
+        border: 2px solid;
+        border-radius: 10px;
+        background: $whiteL;
+
+
+        h2{
+          text-align: center;
+          font-weight: normal;
+        }
+
+        .destacados__img01{
+          background-image: url('../../src/img/internet.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 100px;
+          width: 100px;
+          margin: auto;
+
+        }
+
+        .destacados__img02{
+          background-image: url('../../src/img/computer.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 100px;
+          width: 100px;
+          margin: auto;
+        }
+
+        .destacados__img03{
+          background-image: url('../../src/img/ti.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 100px;
+          width: 100px;
+          margin: auto;
+        }
+
+      }
+
+      a:nth-child(1){
+        border-color: $orange;
+      }
+
+      a:nth-child(2){
+        border-color: $mainRed;
+      }
+
+      a:nth-child(3){
+        border-color: $mainBlue;
       }
     }
 

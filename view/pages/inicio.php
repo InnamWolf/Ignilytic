@@ -4,9 +4,9 @@
 
   <div class="separacion"></div>
 
-  <p class="parrafo_inicio">Nos preocupamos por dar siempre el mejor servicio a nuestros clientes logrando cumplir todas las expectativas</p>
+  <p class="parrafo__inicio">Nos preocupamos por dar siempre el mejor servicio a nuestros clientes logrando cumplir todas las expectativas</p>
 
-  <div class="inicio_habilidades">
+  <div class="inicio__habilidades">
 
     <div class="habilidades__card">
 
@@ -52,24 +52,28 @@
 
   <div class="separacion"></div>
 
-  <p>Servicios más solicitados por nuestros usuarios, tanto particulares como empresas</p>
+  <div class="inicio__destacados">
 
-  <div class="destacados">
+    <p>Servicios más solicitados por nuestros usuarios, tanto particulares como empresas</p>
 
-    <a href="web" class="general__card destacado__web">
-      <div class="destacados__img01"></div>
-      <h2>Diseño de páginas web</h2>
-    </a>
+    <div class="destacados__item">
 
-    <a href="diseno" class="general__card destacado__diseno">
-      <div class="destacados__img02"></div>
-      <h2>Diseño de páginas web</h2>
-    </a>
+      <a href="web" class="destacado__web">
+        <div class="destacados__img01"></div>
+        <h2>Diseño de páginas web</h2>
+      </a>
 
-    <a href="ti" class="general__card destacados__ti">
-      <div class="destacados__img03"></div>
-      <h2>Diseño de páginas web</h2>
-    </a>
+      <a href="diseno" class="destacado__diseno">
+        <div class="destacados__img02"></div>
+        <h2>Diseño de aplicaciones web</h2>
+      </a>
+
+      <a href="ti" class="destacados__ti">
+        <div class="destacados__img03"></div>
+        <h2>Mantenimiento de equipos</h2>
+      </a>
+
+    </div>
 
   </div>
 
