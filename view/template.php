@@ -45,19 +45,19 @@
 
         ){
 
-          include "pages/".$_GET["url"].".php";
+          include "view/pages/".$_GET["url"].".php";
 
         }else{
             // include "pages/404.php";
         }
 
       }else{
-          include "pages/inicio.php";
+          include "view/pages/inicio.php";
       }
       //* ===============================================
       //* Footer
       //* ===============================================
-      // include_once 'view/components/footer.php';
+      include_once 'view/components/footer.php';
     ?>
 
   </div>

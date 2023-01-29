@@ -1,0 +1,10 @@
+.separacion{
+  height: 2px;
+  max-width: 85%;
+  background: $lemon;
+  margin: auto;
+  margin-top: 10px;
+  @include desktop{
+    max-width: 65%;
+  }
+}

@@ -1,0 +1,107 @@
+.inicio{
+  width: 90%;
+  margin: auto;
+
+  @include desktop{
+    width: 1150px;
+    margin: auto;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  .parrafo_inicio{
+    text-align: center;
+  }
+
+  // * ===============================================
+  // * Habilidades
+  // * ===============================================
+
+  .inicio_habilidades{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+
+    @include desktop{
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .habilidades__card:nth-child(1){
+      border-color: $mainBlue;
+    }
+
+    .habilidades__card:nth-child(2){
+      border-color: $mainYellow;
+    }
+
+    .habilidades__card:nth-child(3){
+      border-color: $purple;
+    }
+
+    .habilidades__card:nth-child(4){
+      border-color: $mainRed;
+    }
+
+    .habilidades__card{
+      border: 2px solid;
+      border-radius: 10px;
+      padding: 10px;
+      background: $whiteL;
+
+      h2{
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      .habilidades__img01{
+        background-image: url('../../src/img/device.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
+
+      .habilidades__img02{
+        background-image: url('../../src/img/creativity.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
+
+      .habilidades__img03{
+        background-image: url('../../src/img/shopping.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
+
+      .habilidades__img04{
+        background-image: url('../../src/img/clock.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
+    }
+
+  }
+
+}

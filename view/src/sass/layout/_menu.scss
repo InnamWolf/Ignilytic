@@ -109,6 +109,9 @@
 
         .escritorio__item{
           font-size: 18px;
+          &:hover{
+            color: $lemon;
+          }
         }
 
       }
