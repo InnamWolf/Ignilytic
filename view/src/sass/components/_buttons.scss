@@ -24,3 +24,25 @@
   }
 
 }
+
+.boton__ver{
+  display: block;
+  border: 2px solid $mainRed;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  width: 80px;
+  border-radius: 5px;
+  margin: auto;
+  color: $BlackL;
+  body.dark &{
+    color:$whiteL;
+    transition: all 1s;
+    &:hover{
+      background: $mainRed;
+    }
+  }
+
+
+}
