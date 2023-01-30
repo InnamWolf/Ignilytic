@@ -1,7 +1,6 @@
 body{
   background: $white;
   font-family: $text;
-  transition: 2s ease all;
   &.dark{
     background: $darkMode;
   }
