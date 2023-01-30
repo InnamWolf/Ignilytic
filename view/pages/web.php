@@ -2,6 +2,8 @@
 
   <div class="general__titulo"><h1>Página Web</h1></div>
 
+  <div class="separacion"></div>
+
   <div class="web__paquetes">
     <div class="web__card general__card">
       <h3>Economico</h3>

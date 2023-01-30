@@ -3,6 +3,10 @@
   width: 95%;
   margin: auto;
 
+  h1{
+    margin: 0;
+  }
+
   @include desktop {
     width: 1150px;
   }

@@ -1,3 +1,105 @@
 .polizas{
+  width: 95%;
+  margin: auto;
+  body.dark &{
+    color: $whiteL;
+  }
+
+  @include desktop{
+    width: 1150px;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  .polizas__info{
+    margin-top: 20px;
+  }
+
+  .polizas__wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet{
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 20px;
+      .polizas__item:nth-child(4){
+        grid-column-start:1;
+        grid-column-end: 4 ;
+      }
+    }
+
+    @include desktop{
+      .polizas__item:nth-child(4){
+        grid-column-start:2;
+        grid-column-end: 2;
+      }
+
+    }
+
+    .polizas__item{
+      text-align: center;
+
+      h4{
+        margin: 0;
+        font-family: $title;
+        font-weight: normal;
+      }
+
+      .polizas__text{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        margin: 10px 0;
+      }
+
+    }
+
+    .polizas__item:nth-child(1),
+    .polizas__item:nth-child(2),
+    .polizas__item:nth-child(3),
+    .polizas__item:nth-child(4){
+      border: solid 2px $mainBlue;
+    }
+
+  }
+
+  .polizas__include{
+    background: $whiteL;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    body.dark &{
+      color: $BlackL;
+    }
+
+    span{
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    @include tablet{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 20px;
+      column-gap: 20px;
+      p:nth-child(5){
+        grid-column-start:1;
+        grid-column-end: 3;
+
+      }
+    }
+
+  }
+
+  .poliza_condition{
+    text-align: center;
+    text-align: left;
+  }
 
 }

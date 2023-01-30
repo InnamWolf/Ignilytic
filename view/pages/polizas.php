@@ -2,6 +2,8 @@
 
   <div class="general__titulo"><h1>Polizas de soporte técnico</h1></div>
 
+  <div class="separacion"></div>
+
   <div class="polizas__info">
     Nos comprometemos a dar apoyo técnico atravez de un contrato sin límite de número de eventos y mantenimientos preventivos programados a sus equipos de cómputo, durante 1 año.
   </div>
@@ -19,7 +21,7 @@
              <span>1 soporte presencial al mes</span>
           </div>
 
-          <a href="#" class="boton__ver poliza__btnInfo" data-bs-toggle="modal" data-bs-target="#modalBasica">Costo</a>
+          <a href="#" class="boton__ver">Costo</a>
 
       </div>
 
@@ -34,7 +36,7 @@
              <span>3 soporte presencial al mes</span>
           </div>
 
-          <a href="#" class="boton__ver poliza__btnInfo" data-bs-toggle="modal" data-bs-target="#modalSilver">Costo</a>
+          <a href="#" class="boton__ver">Costo</a>
 
       </div>
 
@@ -49,7 +51,7 @@
              <span>6 soporte presencial al mes</span>
           </div>
 
-          <a href="#" class="boton__ver poliza__btnInfo" data-bs-toggle="modal" data-bs-target="#modalGold">Costo</a>
+          <a href="#" class="boton__ver">Costo</a>
 
       </div>
 
@@ -65,13 +67,15 @@
              <span>Asesoría para la <br> transformación de negocio</span>
           </div>
 
-          <a href="#" class="boton__ver poliza__btnInfo" data-bs-toggle="modal" data-bs-target="#modalInPlan">Costo</a>
+          <a href="#" class="boton__ver">Costo</a>
 
       </div>
 
   </div>
 
   <div class="general__titulo"><h1>Todos las polizas incluyen</h1></div>
+
+  <div class="separacion"></div>
 
   <div class="polizas__include">
 
@@ -104,13 +108,19 @@
 
   <div class="general__titulo"><h1>Condiciones de servicio</h1></div>
 
+  <div class="separacion"></div>
+
     <div class="poliza_condition">
       <p>
-        El Soporte es por medios electrónicos tickets electrónicos, chat, teléfono y soporte presencial al mes (Aplica Restricciones de Viáticos si se requieren)
+        El Soporte es por medio electrónicos como son tickets electrónicos (Mesa de ayuda), chat, teléfono y soporte presencial al mes (Aplica Restricciones de Viáticos si se requieren).
       </p>
 
       <p>
-        Horario de atención: lunes a viernes 10:00am a 1:00pm y de 3:00pm a 7:00 pm y sábado de 10:00 am a 3:00 pm (sujeto a disponibilidad del consultor) aplicable para polizas <b> basica, silver y gold</b>
+        Horario de atención: lunes a viernes <b>9:00 am a 1:00 pm</b> y de <b>3:00 pm a 7:00 pm</b> y sábado de <b>9:00 am a 2:00 pm</b> (sujeto a disponibilidad del consultor) aplicable para polizas <b> basica, silver y gold</b>.
+      </p>
+
+      <p>
+        Para el caso de <b>Personal en la oficina</b> nuesto personal adopta los horarios de la empresa.
       </p>
     </div>
 

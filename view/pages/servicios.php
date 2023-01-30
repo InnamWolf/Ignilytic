@@ -2,6 +2,8 @@
 
   <div class="general__titulo"><h1>Nuestros servicios</h1></div>
 
+  <div class="separacion"></div>
+
   <div class="servicios__wrapper">
 
     <div class="general__card servicio__item">
