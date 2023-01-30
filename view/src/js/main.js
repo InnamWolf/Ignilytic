@@ -89,7 +89,6 @@ const info = document.querySelector('#modalInfo');
 info?.addEventListener('click', (e) =>{
   Swal.fire({
     title: 'Información general web',
-    text: 'Do you want to continue',
     confirmButtonText: 'Cerrar',
     showCloseButton: true,
     allowEnterKey: false,
@@ -118,3 +117,113 @@ info?.addEventListener('click', (e) =>{
     }
   })
 });
+
+//* ===============================================
+//* Modal Poliza Basica
+//* ===============================================
+const basica = document.querySelector('#polBasica');
+
+basica?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'Poliza Básica',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<span class="modal__config">Mensual: <b>$3,000</b></span>' +
+    '<span class="modal__config">Trimestral: <b>$8,000</b></span>' +
+    '<span class="modal__config">Anual: <b>$30,000</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>Para planes trimestrales y anuales el pago se difiere en mensualidades.</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>La poliza es individual por equipo dentro de la poliza he intrasferible para otro equipo.</b></span>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+});
+
+//* ===============================================
+//* Modal Poliza Silver
+//* ===============================================
+const silver = document.querySelector('#polSilver');
+
+silver?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'Poliza Silver',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<span class="modal__config">Mensual: <b>$6,000</b></span>' +
+    '<span class="modal__config">Trimestral: <b>$13,000</b></span>' +
+    '<span class="modal__config">Anual: <b>$60,000</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>Para planes trimestrales y anuales el pago se difiere en mensualidades.</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>La poliza es individual por equipo dentro de la poliza he intrasferible para otro equipo.</b></span>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+});
+
+//* ===============================================
+//* Modal Poliza Gold
+//* ===============================================
+const gold = document.querySelector('#polGold');
+
+gold?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'Poliza Gold',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<span class="modal__config">Mensual: <b>$10,000</b></span>' +
+    '<span class="modal__config">Trimestral: <b>$22,000</b></span>' +
+    '<span class="modal__config">Anual: <b>$90,000</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>Para planes trimestrales y anuales el pago se difiere en mensualidades.</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>La poliza es individual por equipo dentro de la poliza he intrasferible para otro equipo.</b></span>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+});
+
+//* ===============================================
+//* Modal Poliza inplant
+//* ===============================================
+const oficina = document.querySelector('#polOficina');
+
+oficina?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'Implants Personal en la oficina',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<span class="modal__config">Mensual: <b>$15,000</b></span>' +
+    '<span class="modal__config">Trimestral: <b>$45,000</b></span>' +
+    '<span class="modal__config">Semestral: <b>$90,000</b></span>' +
+    '<span class="modal__config">Anual: <b>$180,000</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>Para planes trimestrales, semestrales y anuales el pago se difiere en mensualidades.</b></span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> <b>La poliza cubre todos los eventos tegnologicos dentro de la empresa y los costos son por personal contratado.</b></span>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+});
+
