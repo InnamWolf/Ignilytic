@@ -1,0 +1,16 @@
+.modal__config{
+  text-align: left;
+  display: block;
+  margin: 20px 0px;
+  font-size: 14px;
+
+  @include tablet{
+    font-size: 16px;
+  }
+
+  i{
+    color: $mainBlue;
+    margin-right: 2px;
+  }
+
+}

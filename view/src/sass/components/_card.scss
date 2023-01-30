@@ -8,3 +8,40 @@
     background: none;
   }
 }
+
+.card__info{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: $bgDark;
+  body.dark &{
+    border: 2px solid $purple;
+    background: none;
+  }
+
+  .card__imgInfo{
+    background-image: url("../../src/img/info.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  @include tablet{
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @include desktop{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+}
+
+#modalInfo{
+  color: $whiteL;
+}

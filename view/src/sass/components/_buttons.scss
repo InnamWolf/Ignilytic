@@ -32,13 +32,14 @@
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  width: 80px;
+  width: 120px;
   border-radius: 5px;
   margin: auto;
   color: $BlackL;
+  cursor: pointer;
   body.dark &{
     color:$whiteL;
-    transition: all 1s;
+    transition: all 0.5s;
     &:hover{
       background: $mainRed;
     }

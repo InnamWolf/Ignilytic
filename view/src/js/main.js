@@ -81,3 +81,40 @@ const btnDarkDesk = document.querySelector('.modoDesk');
 
   }
 
+//* ===============================================
+//* Modal Informacion <web></web>
+//* ===============================================
+const info = document.querySelector('#modalInfo');
+
+info.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'Información general web',
+    text: 'Do you want to continue',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Diseño web responsivo</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Hospedaje Web GRATIS por 1 año</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Dominio .com GRATIS por 1 año</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Posicionamiento SEO orgánico</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Links a redes sociales</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Formulario de contacto</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Mapa en tu sitio web</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i> Alta en el buscadores web</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Diseño del Wireframe</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Publicación del proyecto en línea</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Soporte técnico 24/7 vía correo</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Diseño de Mockup</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Código optimizado</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Asesoría para la selección del dominio</span>' +
+    '<span class="modal__config"><i class="far fa-check-circle"></i>  Configuración de correo electrónico</span>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+});

@@ -13,12 +13,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
   <!-- Normalize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <!--===============================================
   lib js
   =================================================-->
   <!-- Jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- SweetAlert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <link rel="icon" href="view/src/img/icono.png" sizes="64x64">
 
@@ -42,7 +46,8 @@
       if(isset($_GET["url"])){
 
         if( $_GET["url"] == "inicio" ||
-            $_GET["url"] == "servicios"
+            $_GET["url"] == "servicios" ||
+            $_GET["url"] == "web"
 
         ){
 

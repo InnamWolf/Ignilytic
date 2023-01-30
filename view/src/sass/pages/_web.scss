@@ -1,0 +1,80 @@
+.web{
+  width: 95%;
+  margin: auto;
+
+  @include desktop{
+    width: 1150px;
+  }
+
+  .web__paquetes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+
+    @include tablet{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+
+    @include desktop{
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .web__card{
+      h3{
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+        font-family: $title;
+      }
+
+      .web__text{
+        margin: 10px 0px;
+        text-align: center;
+        display: grid;
+        grid-template: (1,1fr);
+        row-gap: 10px;
+      }
+    }
+
+    .web__card:nth-child(1){
+      border-color: $violet;
+    }
+
+    .web__card:nth-child(2){
+      border-color: $purple;
+    }
+
+    .web__card:nth-child(3){
+      border-color: $mainDarkBlue;
+      @include tablet{
+        grid-column-start:1;
+        grid-column-end: 3 ;
+      }
+      @include desktop{
+        grid-column-start: 3;
+        grid-column-end: 3;
+      }
+    }
+
+    .web__card:nth-child(4){
+      border-color: $orange;
+
+      @include tablet{
+        grid-column-start:1;
+        grid-column-end: 3 ;
+      }
+
+      @include desktop{
+        grid-column-start: 2;
+        grid-column-end: 2  ;
+      }
+
+    }
+  }
+
+
+
+}
