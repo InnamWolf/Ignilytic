@@ -1,0 +1,113 @@
+.ti {
+
+  width: 95%;
+  margin: auto;
+
+  @include desktop {
+    width: 1150px;
+  }
+
+  P {
+    text-align: center;
+
+    body.dark & {
+      color: $whiteL;
+    }
+  }
+
+  .ti__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+  }
+
+  .ti__servicios {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+
+    h3 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .ti__servicios:nth-child(1) {
+    border: solid 2px $mainBlue;
+  }
+
+  .ti__servicios:nth-child(2) {
+    border: solid 2px $mainBlue;
+  }
+
+  .ti__poliza {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .poliza__item {
+      p {
+        margin: 0px;
+        background: $mainBlue;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        body.dark & {
+          background: none;
+          border: 2px solid $mainBlue;
+
+          &:hover {
+            background: $mainBlue;
+          }
+        }
+      }
+    }
+
+  }
+
+  .ti__costo {
+    border: solid 2px $mainBlue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: $title;
+    text-align: center;
+    background: $whiteL;
+    body.dark &{
+      background: none;
+    }
+
+    @include tablet{
+      width: 300px;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    @include desktop{
+      width: 400px;
+    }
+  }
+
+
+
+}

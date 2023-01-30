@@ -86,7 +86,7 @@ const btnDarkDesk = document.querySelector('.modoDesk');
 //* ===============================================
 const info = document.querySelector('#modalInfo');
 
-info.addEventListener('click', (e) =>{
+info?.addEventListener('click', (e) =>{
   Swal.fire({
     title: 'Información general web',
     text: 'Do you want to continue',
