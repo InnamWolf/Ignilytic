@@ -49,7 +49,8 @@
             $_GET["url"] == "servicios" ||
             $_GET["url"] == "web" ||
             $_GET["url"] == "ti" ||
-            $_GET["url"] == "polizas"
+            $_GET["url"] == "polizas" ||
+            $_GET["url"] == "diseno"
 
         ){
 

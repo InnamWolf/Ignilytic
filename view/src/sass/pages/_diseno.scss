@@ -1,0 +1,67 @@
+.disenos{
+  width: 95%;
+  margin: auto;
+
+  @include desktop{
+    width: 1150px;
+  }
+
+  h1{
+    margin: 0px;
+    padding: 0;
+  }
+
+  p{
+    text-align: center;
+    body.dark &{
+      color: $whiteL;
+    }
+  }
+
+  .disenos__paquetes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+
+    text-align: center;
+
+    h3{
+      margin: 0px;
+      margin: 10px 0px;
+    }
+  }
+
+  .diseno__item{
+    border:solid 2px $orange;
+    p{
+      margin: 0;
+      margin: 20px 0;
+    }
+  }
+
+  .diseno__notas{
+    margin-top: 20px;
+    border: solid 2px $purple;
+  }
+
+  .diseno__extras{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    @include tablet{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+  }
+
+  .diseno__item__extras{
+    border: solid 2px $purple;
+  }
+}
