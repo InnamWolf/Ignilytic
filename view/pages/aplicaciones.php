@@ -47,7 +47,7 @@
   </div>
 
   <p>
-  Todas las tareas que necesites automatizar para llevar un mejor control. Así mismo puedes recibir pagos directamente por tus servicios ya sea desde Mercado Pago o si bien prefieres PayPal
+  Todas las tareas que necesites automatizar para llevar un mejor control. Así mismo puedes recibir pagos directamente por tus servicios ya sea desde Mercado Pago o si bien prefieres PayPal.
   </p>
 
 </section>

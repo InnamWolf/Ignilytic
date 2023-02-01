@@ -1,0 +1,14 @@
+.faq__question{
+  padding: 10px;
+  border: 2px solid $purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  background: $whiteL;
+  body.dark &{
+    color: $whiteL;
+    background: none;
+  }
+}
