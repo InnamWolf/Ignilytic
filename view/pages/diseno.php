@@ -53,7 +53,9 @@
   <div class="general__card diseno__notas">
 
     <p>Diseño de tarjeta admite hasta 5 datos diferentes por empleado en la misma empresa.</p>
+
     <p>Ninguno de los paquetes cuenta con diseños impresos en caso de requerirlos estos se cobraran por separado.</p>
+
     <p>Entrega de 3 a 6 días hábiles, depende del diseño una vez obtenida toda la información.</p>
 
   </div>
@@ -63,9 +65,11 @@
   <div class="separacion"></div>
 
   <div class="diseno__extras">
+
     <div class="general__card diseno__item__extras">
       <p>Triptico básico</p>
     </div>
+
     <div class="general__card diseno__item__extras">
       <p>Triptico avanzado</p>
     </div>
@@ -75,6 +79,7 @@
     <div class="general__card diseno__item__extras">
       <p>Catálogo Avanzado</p>
     </div>
+
   </div>
 
 </section>

@@ -1,0 +1,84 @@
+.aplicaciones{
+
+  width: 95%;
+  margin: auto;
+
+  @include desktop{
+    width: 1150px;
+  }
+
+  h1,h2{
+    margin: 0;
+  }
+
+    .aplicaciones__card{
+    margin-top: 20px;
+    border: solid 2px $lemon;
+    text-align: center;
+    h3{
+      margin: 0;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+
+    @include tablet{
+      width: 400px;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    @include desktop{
+      width: 700px;
+
+    }
+
+  }
+
+  .app__item{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    border: $lemon solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background: $whiteL;
+    body.dark &{
+      background: none;
+      color: $whiteL;
+    }
+    i{
+      color: $mainBlue;
+    }
+
+    @include tablet{
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+    }
+
+    @include desktop{
+      width: 800px;
+      margin: auto;
+      margin-top: 20px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+  }
+
+  p{
+    text-align: center;
+    font-weight: bold;
+    body.dark &{
+      color: $whiteL;
+    }
+
+    @include desktop{
+      text-align: left;
+    }
+  }
+
+}
