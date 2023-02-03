@@ -370,3 +370,130 @@ faq7?.addEventListener('click', (e) =>{
     }
   })
 });
+
+
+//* ===============================================
+//* Validar formulario
+//* ===============================================
+document.addEventListener('DOMContentLoaded', function(){
+
+  const formulario = {
+      nombre: '',
+      correo: '',
+      telefono: '',
+      servicio: '',
+      mensaje: ''
+  }
+
+  // 1 Seleccionamos elementos a validar
+  const inputNombre = document.querySelector('#nombre');
+  const inputCorreo = document.querySelector('#correo');
+  const inputTelefono = document.querySelector('#telefono');
+  const inputServicio = document.querySelector('#servicio');
+  const textMensaje = document.querySelector('#mensaje');
+  const btnEnviar = document.querySelector('#formulario  input[type="submit"]');
+
+  // 2 Asignamos los eventos
+
+  inputNombre.addEventListener('blur', validar);
+  inputCorreo.addEventListener('blur', validar);
+  inputTelefono.addEventListener('blur', validar);
+  inputServicio.addEventListener('blur', validar);
+  textMensaje.addEventListener('blur', validar);
+
+
+  function validar(e) {
+
+    if(e.target.value.trim() === ''){
+      mostarAlerta(`El Campo ${e.target.id} es obligatorio`,e.target.parentElement);
+      formulario[e.target.name] = '';
+      comprobarFormulario();
+      return;
+    }
+
+    if(e.target.id === 'correo' && !validarCorreo(e.target.value)){
+      mostarAlerta('El correo no es valido',e.target.parentElement);
+      formulario[e.target.name] = '';
+      comprobarFormulario();
+      return;
+    }
+
+    if(e.target.id === 'nombre' && !validarNombre(e.target.value)){
+      mostarAlerta('Elimina caracteres especiales y numeros',e.target.parentElement);
+      formulario[e.target.name] = '';
+      comprobarFormulario();
+      return;
+    }
+
+    if(e.target.id === 'telefono' && !validarTelefono(e.target.value)){
+      mostarAlerta('Escribe solo números',e.target.parentElement);
+      formulario[e.target.name] = '';
+      comprobarFormulario();
+      return;
+    }
+
+    limpiarAlerta(e.target.parentElement);
+
+    // 5 Asignamos valores al objeto formulario
+    formulario[e.target.name] = e.target.value.trim();
+
+    //Comprobar el objeto de email
+    comprobarFormulario();
+
+  }
+
+  function mostarAlerta(mensaje, referencia) {
+
+    limpiarAlerta(referencia);
+
+    // 3 Generar alerta
+    const error = document.createElement('P');
+    error.textContent = mensaje;
+    error.classList.add('error__alerta');
+
+    // 4 Inyectar el error al formulario
+    referencia.appendChild(error);
+
+  }
+
+  function limpiarAlerta(referencia){
+    const alerta = referencia.querySelector('.error__alerta');
+    if(alerta){
+      alerta.remove();
+    }
+  }
+
+  function validarCorreo(email){
+
+    const regex =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
+    const resultado =regex.test(email);
+    return resultado;
+
+  }
+
+  function validarNombre(nombre){
+
+    const regex =  /^[ a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/
+    const resultado =regex.test(nombre);
+    return resultado;
+
+  }
+
+  function validarTelefono(telefono){
+
+    const regex =  /^[0-9]+$/
+    const resultado =regex.test(telefono);
+    return resultado;
+
+  }
+
+  function comprobarFormulario(){
+    if(Object.values(formulario).includes('')){
+      btnEnviar.classList.add('deshabilitado');
+    }else{
+      btnEnviar.classList.remove('deshabilitado');
+    }
+
+  }
+
+});

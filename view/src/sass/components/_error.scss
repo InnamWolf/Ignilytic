@@ -1,0 +1,10 @@
+.error__alerta{
+  padding: 10px;
+  border: solid 2px $mainRed;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: $mainRed;
+  body.dark &{
+    background: none;
+  }
+}

@@ -16,7 +16,7 @@ Nav movil
     <a href="servicios"><h3>Servicios</h3></a>
     <a href="portafolio"><h3>Portafolio</h3></a>
     <a href="faq"><h3>FAQ</h3></a>
-    <a href="Contacto" ><h3>Contacto</h3></a>
+    <a href="contacto" ><h3>Contacto</h3></a>
     <a href="#" class='movil__btn'>Inicia Sesión</a>
   </div>
 
@@ -36,7 +36,7 @@ Nav Desktop
       <a class='escritorio__item' href="servicios">Servicios</a>
       <a class='escritorio__item' href="portafolio">Portafolio</a>
       <a class='escritorio__item' href="faq">FAQ</a>
-      <a class='escritorio__item' href="Contacto">Contacto</a>
+      <a class='escritorio__item' href="contacto">Contacto</a>
       <i class="fa-regular fa-moon modoDesk"></i>
       <a href="#" class='escritorio__btn'>Inicia Sesión</a>
     </div>

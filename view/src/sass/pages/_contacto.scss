@@ -1,0 +1,86 @@
+.contacto{
+
+  width: 95%;
+  margin: auto;
+
+  @include desktop{
+    width: 800px;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  .contacto__info{
+    text-align: center;
+    margin-top: 20px;
+    body.dark &{
+      color: $whiteL;
+    }
+  }
+
+  .contacto__wrapper{
+    margin-top: 20px;
+    background: $whiteL;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid $mainRed;
+    body.dark &{
+      background: none;
+    }
+  }
+
+  .formulario__contacto{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+
+    .dato_formulario{
+
+      input[type=text],
+      input[type=email]{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        font-family: $text;
+        border-radius: 5px;
+        border: none;
+      }
+
+      select{
+        width: 100%;
+        padding: 10px;
+        background: $white;
+        border: none;
+        border-radius: 5px;
+      }
+
+      textarea{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        height: 150px;
+      }
+
+      label{
+        margin-bottom: 10px;
+        display: block;
+        body.dark &{
+          color: $whiteL;
+        }
+      }
+
+    }
+
+    .deshabilitado{
+      opacity: .5;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+  }
+
+}

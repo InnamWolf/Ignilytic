@@ -52,14 +52,15 @@
             $_GET["url"] == "polizas" ||
             $_GET["url"] == "diseno" ||
             $_GET["url"] == "aplicaciones" ||
-            $_GET["url"] == "faq"
+            $_GET["url"] == "faq" ||
+            $_GET["url"] == "contacto"
 
         ){
 
           include "view/pages/".$_GET["url"].".php";
 
         }else{
-            // include "pages/404.php";
+            include "pages/404.php";
         }
 
       }else{

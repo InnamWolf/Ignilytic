@@ -44,6 +44,23 @@
       background: $mainRed;
     }
   }
+}
 
+.boton__submit{
+  display: block;
+  margin: auto;
+  width: 100px;
+  border: solid 2px $mainRed;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  body.dark &{
+    background: none;
+    color:$whiteL;
+    transition: all 0.5s;
+    &:hover{
+      background: $mainRed;
+    }
+  }
 
 }
