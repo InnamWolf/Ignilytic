@@ -53,7 +53,9 @@
             $_GET["url"] == "diseno" ||
             $_GET["url"] == "aplicaciones" ||
             $_GET["url"] == "faq" ||
-            $_GET["url"] == "contacto"
+            $_GET["url"] == "contacto" ||
+            $_GET["url"] == "enviar" ||
+            $_GET["url"] == "mensaje"
 
         ){
 

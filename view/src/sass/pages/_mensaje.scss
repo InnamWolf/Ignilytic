@@ -1,0 +1,28 @@
+.mensaje{
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+
+  @include desktop{
+    width: 1150px;
+  }
+
+  img{
+    max-height: 250px;
+  }
+
+  p{
+    font-family: $title;
+    body.dark &{
+      color: $whiteL;
+    }
+
+    @include tablet{
+      font-size: 25px;
+
+    }
+  }
+
+
+}
