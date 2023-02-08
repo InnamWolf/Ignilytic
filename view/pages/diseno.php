@@ -15,7 +15,7 @@
       <p>Tipográfica con la cual está compuesto el logotipo para su aplicación a usos diversos o posteriores.</p>
       <p>1 Reunion virtual con diseñador </p>
       <p>Archivo editable, JPG y PDF</p>
-      <a href="diseno" class="boton__ver">Contratar</a>
+      <a href="contacto" class="boton__ver">Contratar</a>
     </div>
 
     <div class="general__card diseno__item">
@@ -27,7 +27,7 @@
       <p>Diseño de promocional en 1 producto (taza, gorra, lapicero, termo, playera etc.)</p>
       <p>Diseño de portada de Facebook y Twiiter en dimenciones establecidad por cada plataforma.</p>
       <p>Manual de Identidad Visual PDF (Análisis de logotipo, Colores, Tipografías, Usos Correctos e Incorrectos).</p>
-      <a href="diseno" class="boton__ver">Contratar</a>
+      <a href="contacto" class="boton__ver">Contratar</a>
     </div>
 
     <div class="general__card diseno__item">
@@ -41,7 +41,7 @@
       <p>Diseño de tarjeta de presentación</p>
       <p>Diseño de Sobre ó Folder</p>
       <p>Manual de Identidad Visual PDF (Análisis de logotipo, Colores, Tipografías, Usos Correctos e Incorrectos).</p>
-      <a href="diseno" class="boton__ver">Contratar</a>
+      <a href="contacto" class="boton__ver">Contratar</a>
     </div>
 
   </div>
