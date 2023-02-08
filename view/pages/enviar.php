@@ -16,6 +16,7 @@ try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
    $mail->isMail();                       //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`;
+   $mail->CharSet = 'UTF-8';
 
     //Recipients
     $mail->setFrom($correo, ucfirst($nombre));
@@ -24,7 +25,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Solicitud de informacion';
-    $mail->Body    = '<b>Hola mi nombre es:</b> '.ucfirst($nombre).'
+    $mail->Body    = '<b>Hola mi nombre es:</b> '.ucwords($nombre).'
                       <br><b>Mi correo es:</b> '.$correo.'
                       <br><b>Mi teléfono para contacto:</b> '.$telefono.'
                       <br><b>Solicito el servicio:</b> '.$servicio.'
