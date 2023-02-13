@@ -745,4 +745,87 @@ almeja?.addEventListener('click', (e) =>{
   })
 });
 
+const atm = document.querySelector('#atm');
+
+atm?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'ATM ASOCIACION DE TRIATLETAS MEXICANOS',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Página web informativa de eventos, organizadores y galerías.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Emprendedor <br><b>Desarrollo:</b> 7 - 10 días hábiles <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Inactivo</a><br></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const arinco = document.querySelector('#arinco');
+
+arinco?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'ARINCO CONSTRUCCIONES',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Grupo de Ingenieros, Arquitectos y Personal Técnico creado para ofrecer una experiencia integral en el sector de la construcción a través de un amplio abanico de servicios que se adaptan a las necesidades de cada cliente.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Economico <br><b>Desarrollo:</b> 5 - 7 días hábiles <br> <b>Url:</b> <a href="http://arinco.org.mx/" target="_blank" rel="noopener noreferrer">www.arinco.org.mx</a><br></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const mbx = document.querySelector('#mbx');
+
+mbx?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'MEXICANA DE BECAS',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Actualización de sitio web para fondo de ahorro educativo.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Microempresa Personalizado <br><b>Desarrollo:</b> 3 Meses <br> <b>Url:</b> <a href="https://www.mb.com.mx/home/" target="_blank" rel="noopener noreferrer">www.mb.com.mx</a><br><b>Proyecto actualmente en desarrollo</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const digi = document.querySelector('#digi');
+
+digi?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'DIGISOLUTIONS',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Desarrollo de sitio web para empresa integradora de servicios.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Emprendedor Personalizado <br><b>Desarrollo:</b> 3 Meses <br> <b>Url:</b> <a href="https://digisolutions.com.mx/" target="_blank" rel="noopener noreferrer">digisolutions.com.mx</a><br><b>Proyecto actualmente en desarrollo</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
 
