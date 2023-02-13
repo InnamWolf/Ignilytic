@@ -500,5 +500,249 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 //* ===============================================
-//* CAPTCHA
+//* PROYECTOS GALERIA
 //* ===============================================
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'alwaysShowNavOnTouchDevices':true,
+  'disableScrolling': true
+})
+
+
+//* ===============================================
+//* Proyectos informacion
+//* ===============================================
+const radha = document.querySelector('#radha');
+
+radha?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'RADHA EVENTOS',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Sitio web diseñado para la organización de eventos sociales, renta de equipos, recintos y salones</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Emprendedor <br><b>Desarrollo:</b> 7 - 10 días hábiles <br> <b>Url:</b> <a href="http://www.radhaeventos.com.mx" target="_blank" rel="noopener noreferrer">Inactivo</a></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const blanc = document.querySelector('#blanc');
+
+blanc?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'BLANC MEDICAL',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Sitio web diseñado para la organización de eventos sociales, renta de equipos, recintos y salones</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Sistema web personalizado <br><b>Desarrollo:</b> 40 - 60 días hábiles <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Sitio web privado</a><br><b>Los datos mostrados son solo demostrativos para la funcionalidad del sistema</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+
+const maestros = document.querySelector('#maestros');
+
+maestros?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'MAESTROS DEL SABER',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Biblioteca en línea, para compartir información sobre vida saludable, los libros se descargan mediante un login de usuario, con restricción por día de hasta un máximo 10 descargar por usuario.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Sistema web personalizado <br><b>Desarrollo:</b> 15 - 20 días hábiles <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Sitio web privado</a><br><b>Los datos mostrados son solo demostrativos para la funcionalidad del sistema</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const livark = document.querySelector('#livark');
+
+livark?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'GRUPO LIVARK',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Sitio web de servicios en construcción, remodelación, sistemas constructivos, este proyecto ya tiene tiempo con nosotros, el cliente aún no se ha decidido actualizar su sitio web con nuevas y mejores tecnologías.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Emprendedor <br><b>Desarrollo:</b> 7 - 10 días hábiles <br> <b>Url:</b> <a href="https://www.livark.com.mx/" target="_blank" rel="noopener noreferrer">www.livark.com.mx</a></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const mutagen = document.querySelector('#mutagen');
+
+mutagen?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'MUTAGEN',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Tienda en línea de suplementos deportivos,información y soporte cuenta con  pagos en línea mediante paypal.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Tienda virtual <br><b>Desarrollo:</b> 20 - 25 días hábiles <br> <b>Url:</b> <a href="https://www.mutagen.com.mx" target="_blank" rel="noopener noreferrer">Inactivo</a></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const onyria = document.querySelector('#onyria');
+
+onyria?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'ONYRIA',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Página web para escuela de maquillaje y efectos especiales, cuenta con tienda de productos propios.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Microempresa  <br><b>Desarrollo:</b> 10 - 15 días hábiles <br> <b>Url:</b> <a href="https://www.onyria.com.mx" target="_blank" rel="noopener noreferrer">Inactivo</a></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const iefesa = document.querySelector('#iefesa');
+
+iefesa?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'IEFESA',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Página web para distribución de productos electrónicos, metalmecánico, farmacéuticos,  textil entre otros.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Microempresa Personalizada <br><b>Desarrollo:</b> 25 - 30 días hábiles <br> <b>Url:</b> <a href="https://www.iefesamexico.net/" target="_blank" rel="noopener noreferrer">www.iefesamexico.net</a><br> <b>Proyecto no concluido por parte del cliente programación del sitio 80%</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const numeri = document.querySelector('#numeri');
+
+numeri?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'NUMERI MÉXICO',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Página web de prestadora de servicios.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Microempresa Personalizada <br><b>Desarrollo:</b> 25 - 30 días hábiles <br> <b>Url:</b> <a href="https://www.numeri.com.mx/" target="_blank" rel="noopener noreferrer">Inactivo</a><br> <b>Proyecto no concluido por parte del cliente programación del sitio 80%</b></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const gin = document.querySelector('#gin');
+
+gin?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'GRUPO GIN',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Sistema interno para la renta de inmuebles y vehículos.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Sistema web personalizado <br><b>Desarrollo:</b> 40 - 50 días hábiles <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Grupo Gin interno</a><br></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const sisaam = document.querySelector('#sisaam');
+
+sisaam?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'SISAAM',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Sistema interno para la administración de taller mecánico, historial de vehículos, autorización de presupuestos, creación de presupuestos, inventario de productos y servicios del estado de tabasco.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Sistema web personalizado <br><b>Desarrollo:</b> 8 meses <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Grupo Numeri Interno</a><br></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+const almeja = document.querySelector('#almeja');
+
+almeja?.addEventListener('click', (e) =>{
+  Swal.fire({
+    title: 'PONTE ALMEJA',
+    confirmButtonText: 'Cerrar',
+    showCloseButton: true,
+    allowEnterKey: false,
+    allowOutsideClick:false,
+    html:
+    '<p class="descripcion">Página web del restaurante ponte almeja, proyecto del complejo dentro de edificio WTC ciudad de México.</p>' +
+    '<p class="extra"><b>Tipo proyecto:</b> Microempresa <br><b>Desarrollo:</b> 10 - 15 días hábiles <br> <b>Url:</b> <a href="#" target="_blank" rel="noopener noreferrer">Inactivo</a><br></p>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  })
+});
+
+

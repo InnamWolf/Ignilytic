@@ -37,9 +37,17 @@
   margin: auto;
   color: $BlackL;
   cursor: pointer;
+  a{
+    text-decoration: none;
+    color: $BlackL;
+  }
   body.dark &{
     color:$whiteL;
     transition: all 0.5s;
+    a{
+      text-decoration: none;
+      color: $whiteL;
+    }
     &:hover{
       background: $mainRed;
     }

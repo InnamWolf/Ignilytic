@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
   <!-- Animate Css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"/>
 
   <!--===============================================
   lib js
@@ -23,7 +25,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <!-- SweetAlert -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+  <!-- Lightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="icon" href="view/src/img/icono.png" sizes="64x64">
 
   <title>Ignilytic - TI</title>
@@ -55,7 +58,8 @@
             $_GET["url"] == "faq" ||
             $_GET["url"] == "contacto" ||
             $_GET["url"] == "enviar" ||
-            $_GET["url"] == "mensaje"
+            $_GET["url"] == "mensaje" ||
+            $_GET["url"] == "portafolio"
 
         ){
 
