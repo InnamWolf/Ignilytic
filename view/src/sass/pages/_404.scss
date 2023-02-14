@@ -1,0 +1,30 @@
+.error{
+  width: 95%;
+  margin: auto;
+
+  @include desktop{
+    width: 1150px;
+  }
+
+
+
+
+  img{
+    width: 100%;
+    margin-top: 20px;
+    @include desktop{
+      width: 60%;
+      display: block;
+     margin: auto;
+     margin-top: 20px;
+
+
+    }
+  }
+
+  h1,p{
+    text-align: center;
+  }
+
+
+}
