@@ -52,7 +52,8 @@
         $_GET["url"] == "enviar" ||
         $_GET["url"] == "mensaje" ||
         $_GET["url"] == "portafolio" ||
-        $_GET["url"] == "politicas"
+        $_GET["url"] == "politicas" ||
+        $_GET["url"] == "cookiesInfo"
 
       ) {
 
@@ -69,6 +70,7 @@
     //* Footer
     //* ===============================================
     include_once 'view/components/footer.php';
+    include_once 'view/components/cookie.php';
     ?>
 
   </div>

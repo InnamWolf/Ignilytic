@@ -1,0 +1,28 @@
+.aviso__cookies {
+
+  width: 85%;
+  margin: auto;
+  background: $whiteL;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  line-height: 150%;
+
+  @include desktop {
+    width: 1150px;
+  }
+
+  .link {
+    color: $mainBlue;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .titulo {
+    margin: 20px 0;
+  }
+
+  .parrafo {
+    margin: 10px 0;
+  }
+}
