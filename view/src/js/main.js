@@ -395,11 +395,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // 2 Asignamos los eventos
 
-  inputNombre.addEventListener('blur', validar);
-  inputCorreo.addEventListener('blur', validar);
-  inputTelefono.addEventListener('blur', validar);
-  inputServicio.addEventListener('blur', validar);
-  textMensaje.addEventListener('blur', validar);
+  inputNombre?.addEventListener('blur', validar);
+  inputCorreo?.addEventListener('blur', validar);
+  inputTelefono?.addEventListener('blur', validar);
+  inputServicio?.addEventListener('blur', validar);
+  textMensaje?.addEventListener('blur', validar);
 
 
   function validar(e) {
