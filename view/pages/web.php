@@ -7,7 +7,7 @@
   <div class="web__paquetes">
     <div class="web__card general__card">
       <h3>Economico</h3>
-      <h3>$4,000</h3>
+      <h3>$5,000</h3>
       <div class="web__text">
         <span>Tipo landing page</span>
         <span>1 sección</span>
@@ -24,7 +24,7 @@
 
     <div class="web__card general__card">
       <h3>Emprendedor</h3>
-      <h3>$7,000</h3>
+      <h3>$8,000</h3>
       <div class="web__text">
         <span>Página web informativa</span>
         <span>3 - 6 seccione</span>
@@ -41,7 +41,7 @@
 
     <div class="web__card general__card">
       <h3>Microempresa</h3>
-      <h3>$13,000</h3>
+      <h3>$14,000</h3>
       <div class="web__text">
         <span>Página web informativa / servicios</span>
         <span>7 - 12 secciónes</span>
@@ -58,7 +58,7 @@
 
     <div class="web__card general__card">
       <h3>Sitio web auto administrable</h3>
-      <h3>$10,000</h3>
+      <h3>$11,000</h3>
       <div class="web__text">
         <span>No dependas de alguien</span>
         <span>para actualizar tu propio sitio web</span>
